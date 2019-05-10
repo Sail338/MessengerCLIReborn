@@ -26,4 +26,7 @@ var screen = blessed.screen({
     }
   });
   screen.append(box)
+  screen.key([ 'C-c'], function(ch, key) {
+    return process.exit(0);
+  });
   screen.render()

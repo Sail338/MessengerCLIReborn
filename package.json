@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@oclif/config": "^1.13.0",
     "blessed": "^0.1.81",
+    "cli-ux": "^5.2.1",
     "messen": "^1.0.0-beta.8",
     "terminal-kit": "^1.28.0",
     "typescript": "^3.4.5"
